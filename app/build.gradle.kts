@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.bxassistant"
+    namespace = "com.example.assistanttrigger"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.bxassistant"
+        applicationId = "com.example.assistanttrigger"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

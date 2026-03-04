@@ -1,4 +1,4 @@
-package com.example.bxassistant
+package com.example.assistanttrigger
 
 import org.junit.Test
 

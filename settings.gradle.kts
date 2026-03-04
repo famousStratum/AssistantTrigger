@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "bxAssistant"
+rootProject.name = "AssistantTrigger"
 include(":app")
  
