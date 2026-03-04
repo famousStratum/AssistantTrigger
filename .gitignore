@@ -1,3 +1,4 @@
+# IntelliJ / Android Studio
 *.iml
 .gradle
 /local.properties
@@ -7,9 +8,24 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+/.idea/studiobot.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/deviceManager.xml
+/.idea/markdown.xml
+/.idea/.name
 .DS_Store
+
+# Build artifacts
 /build
+/*/build
 /captures
 .externalNativeBuild
 .cxx
+
+# Release artifacts
+/app/release/
+*.apk
+output-metadata.json
+
+# Local configuration
 local.properties

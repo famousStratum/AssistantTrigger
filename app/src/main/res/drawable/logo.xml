@@ -3,11 +3,32 @@
     android:height="100dp"
     android:viewportWidth="100"
     android:viewportHeight="100">
-  <path
-      android:pathData="M50,5Q50,40 85,50Q50,60 50,95Q50,60 15,50Q50,40 50,5Z"
-      android:strokeLineJoin="round"
-      android:strokeWidth="2.5"
-      android:fillColor="#00000000"
-      android:strokeColor="#000000"/>
 
-   </vector>
+    <!-- Main Dynamic Spark -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M50,15 L54,44 L83,48 L54,52 L50,81 L46,52 L17,48 L46,44 Z" />
+
+    <!-- Smaller Offset Spark for depth -->
+    <path
+        android:fillColor="#000000"
+        android:alpha="0.4"
+        android:pathData="M75,25 L77,35 L85,37 L77,39 L75,49 L73,39 L65,37 L73,35 Z" />
+
+    <!-- Minimalist 'AT' in the bottom left -->
+    <!-- 'A' -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M12,92 L16,82 L20,92 M14,89 L18,89" />
+    
+    <!-- 'T' -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M24,82 L30,82 M27,82 L27,92" />
+
+</vector>
