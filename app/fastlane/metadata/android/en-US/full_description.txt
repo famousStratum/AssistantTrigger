@@ -1,0 +1,19 @@
+AssistantTrigger is an ultra-lightweight utility designed to bridge your physical hardware buttons (like the Samsung Bixby button or other programmable keys) to your system's default voice assistant.
+
+Why use AssistantTrigger?
+On many devices, mapping a button directly to an assistant app (like Gemini or Google Assistant) opens the full-screen app interface. AssistantTrigger instead fires the system's "Voice Command" intent, providing a faster, more integrated experience.
+
+Key Features:
+- Instant Trigger: Launch the voice assistant overlay immediately.
+- Zero Permissions: No internet, no microphone, no storage access needed.
+- Minimalist: Uses a "NoDisplay" theme—no intrusive UI or splash screens.
+- Clean Recents: Automatically hides itself from your recent apps list.
+- Small Footprint: APK size (< 50KB).
+
+How to use (Samsung devices):
+1. Go to Settings > Advanced Features > Bixby key.
+2. Select "Double press to open Bixby".
+3. Enable "Use single press" and select "Open app".
+4. Choose "AssistantTrigger" from the list.
+
+Perfect for mapping dedicated hardware buttons to modern AI assistants.

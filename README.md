@@ -1,5 +1,9 @@
 # AssistantTrigger
 
+![Android Min API](https://img.shields.io/badge/API-24%2B-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![App Size](https://img.shields.io/badge/App%20Size-%3C%2050%20KB-orange.svg)
+
 AssistantTrigger is a lightweight Android application designed to provide a quick shortcut to the system's default voice assistant.
 
 ## Background & Motivation
@@ -8,23 +12,13 @@ This app was developed based on personal necessity: to map the physical Bixby bu
 
 While the app was designed with the Galaxy S10 in mind, the code is universal for any Android device that allows mapping a physical button to open an app.
 
-## Broad Device Compatibility
-
-Beyond Samsung Galaxy devices, this app is useful for any smartphone with a dedicated assistant or programmable key, including:
-
-- **Nokia**: Devices with a dedicated Google Assistant button (e.g., Nokia 3.2, 4.2, 8.3 5G).
-- **LG**: G and V series models with a dedicated assistant key (e.g., G7, G8, V40, V50).
-- **Motorola**: Models in the Moto G and One series with dedicated assistant buttons.
-- **Xiaomi**: Global models with a customizable "AI button".
-- **Rugged Phones**: Brands like CAT, Blackview, and Ulefone that feature programmable "PTT" or "SOS" keys.
-
-By using **AssistantTrigger**, you can ensure that these physical buttons trigger the fast **voice overlay** of your chosen assistant rather than just opening the main app interface.
-
 ## Features
 
 - **Instant Trigger**: Automatically launches the system voice command interface upon opening.
+- **Ultra-Lightweight**: Built with zero external dependencies (no AppCompat, no Material Components), resulting in an extremely small APK size.
 - **Minimalist Design**: Uses a `NoDisplay` theme, meaning there's no UI to get in your way.
 - **Clean Recents**: Automatically excludes itself from the recent apps list and doesn't keep history, keeping your multitasking view clean.
+- **Privacy-Focused**: Requires **no permissions** and collects **no data**.
 
 ## How it Works
 
@@ -33,7 +27,7 @@ The app consists of a single activity that dispatches an `Intent.ACTION_VOICE_CO
 ## Requirements
 
 - **Minimum SDK**: Android 7.0 (API level 24)
-- **Target SDK**: Android 15 (API level 36)
+- **Target SDK**: Android 15/16 (API level 36)
 
 ## Getting Started
 
@@ -63,4 +57,4 @@ The app consists of a single activity that dispatches an `Intent.ACTION_VOICE_CO
 
 ## License
 
-This project is open-source. Feel free to use and modify it as you see fit.
+This project is open-source under the **MIT License**. Feel free to use and modify it as you see fit.

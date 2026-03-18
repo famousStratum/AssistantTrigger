@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">AssistantTrigger</string>
+    <string name="app_name">Assistant Trigger</string>
+    <string name="app_description">Quickly trigger the system\'s default voice assistant with a single tap.</string>
+
 </resources>
