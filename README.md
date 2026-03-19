@@ -30,9 +30,9 @@ The app consists of a single activity that dispatches an `Intent.ACTION_VOICE_CO
 
 ## Getting Started
 
-Download from Google Play Store. (Soon)
-Download from F-droid (Soon).
-Download from the [Releases](https://github.com/famousStratum/AssistantTrigger/releases) page and install it on your device.
+- Download from Google Play Store. (Soon)
+- Download from F-droid (Soon).
+- Download from the [Releases](https://github.com/famousStratum/AssistantTrigger/releases) page and install it on your device.
 > You may need to enable Install from unknown sources in your device settings.
 
 ### For Samsung Devices (One UI)
