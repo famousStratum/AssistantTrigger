@@ -1,7 +1,7 @@
 # AssistantTrigger
 
 ![Android Min API](https://img.shields.io/badge/API-24%2B-brightgreen.svg)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![App Size](https://img.shields.io/badge/App%20Size-%3C%2050%20KB-orange.svg)
 
 AssistantTrigger is a lightweight Android application designed to provide a quick shortcut to the system's default voice assistant.
@@ -35,7 +35,7 @@ The app consists of a single activity that dispatches an `Intent.ACTION_VOICE_CO
 - Download from the [Releases](https://github.com/famousStratum/AssistantTrigger/releases) page and install it on your device.
 > You may need to enable Install from unknown sources in your device settings.
 
-### For Samsung Devices (One UI)
+### For Samsung Devices with Bixby Key
 
 1. Go to **Settings > Advanced Features > Bixby key**.
 2. Select **Double press to open Bixby** (so you can use single press for this app).
@@ -51,4 +51,4 @@ The app consists of a single activity that dispatches an `Intent.ACTION_VOICE_CO
 
 ## License
 
-This project is open-source under the **MIT License**.
+This project is open-source under the [GNU GPL v3 License](LICENSE).
