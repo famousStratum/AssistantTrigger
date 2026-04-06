@@ -1,9 +1,6 @@
 # AssistantTrigger
 
-![Android Min API](https://img.shields.io/badge/API-24%2B-brightgreen.svg)
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-![App Size](https://img.shields.io/badge/App%20Size-%3C%2050%20KB-orange.svg)
-
+c
 AssistantTrigger is a lightweight Android application designed to provide a quick shortcut to the system's default voice assistant.
 
 ## Background & Motivation

@@ -1,12 +1,13 @@
-# IntelliJ / Android Studio
-*.iml
+gitignore
+# IntelliJ / Android Studio*.iml
 .gradle
 /local.properties
 /.idea/
 .DS_Store
+*.bundle
 
 # Build artifacts
-/build
+build/
 /*/build
 /captures
 .externalNativeBuild
@@ -17,8 +18,23 @@
 *.apk
 output-metadata.json
 
+# Signing files
+*.jks
+*.keystore
+*.p12
+google-services.json
+
 # Local configuration
 local.properties
 
 # Kotlin specific
 .kotlin/
+
+# OS specific
+Thumbs.db
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
