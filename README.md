@@ -1,6 +1,5 @@
 # AssistantTrigger
 
-c
 AssistantTrigger is a lightweight Android application designed to provide a quick shortcut to the system's default voice assistant.
 
 ## Background & Motivation
